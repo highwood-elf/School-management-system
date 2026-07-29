@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{background-color: rgba(0, 0, 0, 0.95);}
+.navigator{
+    display: flex;
+    background-color: black;
+     justify-content:space-between;
+     padding: 0px 20px;
+}    
+.navigator .panels{
+    display: flex;
+    list-style-type: none;
+    align-items: center;   
+}
+.navigator .panels a{
+    padding: 20px 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.navigator .panels button{
+     background-color: rgb(2, 6, 54);
+     color: aliceblue;
+     width: 150px;
+     height: 50px;
+     border-radius: 7px;
+}
+.logo{
+    display: flex;
+    width: 2.1cm;
+    height: 2.1cm;
+    color: aliceblue;
+    padding-top: 30px;
+    
+}
+.bg{
+    height: 91vh;
+    background: url('bggg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg .banner{
+    padding: 200px ;
+    text-align: center;
+    
+    color:whitesmoke;
+    font-size: 60px;
+}
+.bg .banner .btn{
+    color: aliceblue;
+    background-color: rgb(2, 6, 54);
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+}
+.sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    color: aliceblue;
+    height: 400px;
+    font-size: 13px;
+    gap: 7px;
+    padding: 7px;
+    
+}
+.section1 ,.section2 ,.section3 ,.section4{
+   background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(bg2.jpg);
+   border-radius: 7px; 
+}
+.services{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    border-radius: 10px;
+}
+  .img {
+    display: flex;
+    height: 700px;
+    width: 550px;
+}
+ .about-services{
+    color: aliceblue;
+    font-size: 20px;
+    text-align: justify;
+    padding: 40px 40px;
+}
+.footer{
+    color: aliceblue;
+    height: 15px;
+    padding: 30px;
+}
