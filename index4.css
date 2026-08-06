@@ -1,0 +1,69 @@
+/* 1. Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.custom-nav{
+    background-color: gray;
+}
+
+/* 2. Full-Screen Background Image */
+.hero-background {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+              url('https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1920&auto=format&fit=crop') no-repeat center center / cover;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 3. Heading Accent Line */
+.heading h1 {
+  display: inline-block;
+  position: relative;
+}
+
+.heading h1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: #ffffff;
+  border-radius: 2px;
+}
+
+/* 4. Fully Opaque Floating Cards */
+.floating-card {
+  background-color: #ffffff !important; /* Fully opaque solid white */
+  opacity: 1 !important;
+
+}
+
+.floating-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 5. Card Green Icon Badges */
+.card-icon {
+  width: 44px;
+  height: 44px;
+  background-color: #a4e044;
+  color: #1b261a;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer{
+    background-color: gray;
+    padding: 10px;
+}
+.text{
+    color: #ffffff;
+    text-align: center;
+}
